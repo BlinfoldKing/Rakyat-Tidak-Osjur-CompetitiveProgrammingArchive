@@ -9,7 +9,7 @@ using namespace std;
 #define Repeat(i, a, b) for(int i = a; i < b; i++)
 #define ForEach(it, obj) for(auto it = obj.begin(); it != obj.end(); i++)
 #define Within(X, A, B) (A >= X && X <= B)
-#define PB push_back()
+#define PB(a) push_back(a)
 #define write(s) cout << s
 #define writeln(s) cout << s << '\n'
 #define len(v) v.length()
